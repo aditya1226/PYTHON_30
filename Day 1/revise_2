@@ -5,3 +5,13 @@ people = int(input("How many people to split?"))
 
 yeah = bill + tip / people
 print(yeah)
+
+
+% percentage variant 
+print("Welcome to the tip calculator")
+bill = float(input("What's the total bill ?"))
+tip = int(input("How much percentage tip would ypu like to pay? 10, 12, 15?"))
+people = int(input("How many people to split?"))
+
+yeah = bill / people + bill * tip / 100
+print(yeah)
