@@ -1,0 +1,4 @@
+import random
+batsman = [ "kohli", "Rohit", "gill", "dhoni" ]
+
+print(random.choice(batsman))
