@@ -1,0 +1,10 @@
+Revising the basics data types.
+
+print("Hello from the Python script!")
+
+birthplace = input("Where were you born? ")
+petname = input("What is the name of your first pet? ")
+
+print("Your band name is: " + birthplace + " " + petname)
+
+Don't judge I already knew how to code this!
